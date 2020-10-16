@@ -10,6 +10,20 @@ function backspace()
     var leng=length.substring(0,len-1);
     document.getElementById('dis').value=leng;
 }
+
+function keypressed()
+{
+    var x=document.getElementById('dis').value;
+    if(x=='')
+    {
+
+    }
+    else {
+        y=eval(x);
+        document.getElementById('dis').value=y;
+
+    }
+}
 function sum()
 {
     var x=document.getElementById('dis').value;
